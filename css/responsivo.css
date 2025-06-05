@@ -1,3 +1,4 @@
+@import url(variavel.css);
 .menu-icon{
     display: none;
     cursor: pointer;
@@ -22,6 +23,7 @@
    media query
    se a largura for ate 768 faça
 */
+
 @media (max-width: 768px){
     .navbar-desktop{
         /*medidas relativas
@@ -52,7 +54,7 @@
     position: absolute;
     top: 150px;
     left: 0;
-    background-color: #6ea185ea;
+    background-color:var(--cor-fundo-segundario);
     backdrop-filter: blur(10px);
     opacity: 1;
     transition: all 0.3s ease;
