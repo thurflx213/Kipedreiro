@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: #6ea185ea;
+    background-color: var(--cor-fundo-primario);
 }
 ul{
     display: flex;
@@ -26,10 +26,11 @@ nav{
     line-height: 50px;
 }
 a:hover{
-    color: #ce6f4a;
+    color: red;
 }
 .logo{
    height:  110px;
+   animation: pulse 1s infinite;
 
 }
 .redes{
@@ -48,5 +49,6 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 7px 8px grey ;
+    box-shadow: 0px 7px 8px #c0b2b2 ;
 }
+@import url("animar.css");

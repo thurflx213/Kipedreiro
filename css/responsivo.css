@@ -20,6 +20,6 @@
         justify-content: space-evenly;
         padding: 10px;
         height: 60px;
-        background-color: rgba(241, 142, 85, 0.897);
+        background-color:var() ;
     }
 }
